@@ -1129,11 +1129,12 @@ html {
     padding: 20px; /* Espacio entre el texto y el borde */
 }
 
-/* Estilos para la imagen en el banner */
 .image {
-    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible */
+    max-width: 200px; /* Establece el ancho máximo en píxeles */
+    max-height: 150px; /* Establece la altura máxima en píxeles */
     text-align: center; /* Alinea horizontalmente la imagen en el centro */
 }
+
 
 /* Estilos adicionales para pantallas más pequeñas si es necesario */
 @media (max-width: 768px) {
