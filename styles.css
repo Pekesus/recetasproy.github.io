@@ -1109,38 +1109,40 @@ html {
 }
 
 
-/* Estilos para las imágenes */
-img {
-    max-width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
+
+/* Estilos para el banner */
+.bannner {
+    background-color: #f1f1f1; /* Agrega el color de fondo que desees */
+    padding: 20px;
 }
 
-/* Estilos para las secciones 'banner' y 'blogs' */
-.bannner, .container {
-    display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas en pantallas pequeñas */
-}
-
-/* Estilos para el contenido en la sección 'banner' */
+/* Estilos para el contenido del banner */
 .content-bannner {
     display: flex;
     flex-direction: row; /* Coloca el texto a la izquierda y la imagen a la derecha */
     align-items: center; /* Centra verticalmente el contenido */
 }
 
-/* Estilos para los elementos de la sección 'banner' */
-.text, .image {
-    flex: 1; /* Distribuye el espacio de manera equitativa entre el texto y la imagen */
-    padding: 20px; /* Espacio entre los elementos */
-    text-align: center; /* Alinea horizontalmente el contenido */
+/* Estilos para el texto en el banner */
+.text {
+    flex: 1; /* Hace que el texto ocupe todo el espacio disponible */
+    padding: 20px; /* Espacio entre el texto y el borde */
+}
+
+/* Estilos para la imagen en el banner */
+.image {
+    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible */
+    text-align: center; /* Alinea horizontalmente la imagen en el centro */
 }
 
 /* Estilos adicionales para pantallas más pequeñas si es necesario */
 @media (max-width: 768px) {
     .text, .image {
         flex: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
-        padding: 10px; /* Reduce el espacio entre los elementos */
+        padding: 10px; /* Reduce el espacio entre el texto y la imagen */
     }
 }
+
+
 
 
