@@ -1130,9 +1130,9 @@ html {
 }
 
 .image {
-    max-width: 200px; /* Establece el ancho máximo en píxeles */
-    max-height: 150px; /* Establece la altura máxima en píxeles */
-    text-align: center; /* Alinea horizontalmente la imagen en el centro */
+    width: 200px; /* Establece el ancho máximo en píxeles */
+    height: 150px; /* Establece la altura máxima en píxeles */
+    text-align: right; /* Alinea horizontalmente la imagen en el centro */
 }
 
 
