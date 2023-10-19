@@ -1108,23 +1108,3 @@ html {
 	}
 }
 
-
-/* Aplicar estilos generales */
-section.banner {
-    padding: 20px;
-}
-
-/* Estilos específicos para pantallas más pequeñas */
-@media (max-width: 768px) {
-    section.banner {
-        padding: 10px;
-    }
-    
-    section.container.blogs {
-        padding: 10px;
-    }
-    .container-blogs {
-        display: flex;
-        flex-direction: column;
-    }
-}
