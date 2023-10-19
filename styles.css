@@ -1108,3 +1108,39 @@ html {
 	}
 }
 
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+/* Estilos para las secciones 'banner' y 'blogs' */
+.bannner, .container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas en pantallas pequeñas */
+}
+
+/* Estilos para el contenido en la sección 'banner' */
+.content-bannner {
+    display: flex;
+    flex-direction: row; /* Coloca el texto a la izquierda y la imagen a la derecha */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* Estilos para los elementos de la sección 'banner' */
+.text, .image {
+    flex: 1; /* Distribuye el espacio de manera equitativa entre el texto y la imagen */
+    padding: 20px; /* Espacio entre los elementos */
+    text-align: center; /* Alinea horizontalmente el contenido */
+}
+
+/* Estilos adicionales para pantallas más pequeñas si es necesario */
+@media (max-width: 768px) {
+    .text, .image {
+        flex: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+        padding: 10px; /* Reduce el espacio entre los elementos */
+    }
+}
+
+
