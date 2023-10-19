@@ -1109,40 +1109,25 @@ html {
 }
 
 
-
-/* Estilos para el banner */
 .bannner {
-    background-color: #f1f1f1; /* Agrega el color de fondo que desees */
+    background-color: #E8874C; 
     padding: 20px;
 }
 
-/* Estilos para el contenido del banner */
+
 .content-bannner {
     display: flex;
-    flex-direction: row; /* Coloca el texto a la izquierda y la imagen a la derecha */
-    align-items: center; /* Centra verticalmente el contenido */
+    flex-direction: row; 
+    align-items: center; 
 }
 
-/* Estilos para el texto en el banner */
+
 .text {
-    flex: 1; /* Hace que el texto ocupe todo el espacio disponible */
-    padding: 20px; /* Espacio entre el texto y el borde */
+    flex: 1;
+    padding: 20px;
+    font-size: 16px; /* Cambia este valor al tamaño de fuente deseado */
 }
 
-.image {
-    width: 200px; /* Establece el ancho máximo en píxeles */
-    height: 150px; /* Establece la altura máxima en píxeles */
-    text-align: right; /* Alinea horizontalmente la imagen en el centro */
-}
-
-
-
-@media (max-width: 768px) {
-    .text, .image {
-        flex: 75%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
-        padding: 10px; /* Reduce el espacio entre el texto y la imagen */
-    }
-}
 
 
 
