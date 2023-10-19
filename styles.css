@@ -1125,7 +1125,7 @@ html {
 .text {
     flex: 1;
     padding: 20px;
-    font-size: 16px; /* Cambia este valor al tamaño de fuente deseado */
+    font-size: 16px; 
 }
 
 
