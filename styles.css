@@ -1136,10 +1136,10 @@ html {
 }
 
 
-/* Estilos adicionales para pantallas más pequeñas si es necesario */
+
 @media (max-width: 768px) {
     .text, .image {
-        flex: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+        flex: 75%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
         padding: 10px; /* Reduce el espacio entre el texto y la imagen */
     }
 }
