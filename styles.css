@@ -1108,21 +1108,3 @@ html {
 	}
 }
 
-.content-bannner {
-    display: flex;
-    flex-direction: row; /* Para que los elementos estén en fila (texto a la izquierda, imagen a la derecha) */
-    align-items: center; /* Para alinear verticalmente el contenido */
-}
-
-.text {
-    flex: 1; /* Para que el texto ocupe todo el espacio disponible */
-    padding: 20px; /* Espacio entre el texto y el borde */
-}
-
-.image {
-    flex: 1; /* Para que la imagen ocupe todo el espacio disponible */
-    text-align: center; /* Alineación horizontal de la imagen en el centro */
-    padding: 20px; /* Espacio entre la imagen y el borde */
-}
-
-/* Agrega estilos adicionales según sea necesario */
